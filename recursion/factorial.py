@@ -10,7 +10,7 @@ def recursive_factorial(num):
     Returns factorial result of that number.
     """
     if num > 1:
-        num = num * recursive_factorial(num - 1)
+        return num * recursive_factorial(num - 1)
 
     return num
 
